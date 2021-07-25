@@ -11,7 +11,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<form action="/guestbook4/delete" method="get">
+	<form action="/guestbook5/delete" method="get">
 		<table>
 			<tr>
 				<td>비밀번호</td>
@@ -24,7 +24,7 @@
 		
 			</tr>
 		</table>
-		<a href="/guestbook4/addlist">메인으로 돌아가기</a> <br>
+		<a href="/guestbook5/addlist">메인으로 돌아가기</a> <br>
 		<input type='hidden' name="no" value="${param.no}">
 
 	</form>
